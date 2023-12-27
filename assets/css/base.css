@@ -1,0 +1,85 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #FF3399;
+    --border-color: #dbdbdb;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    /*1 rem = 10 pixel*/
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    /*font-family: 'Roboto','sans-serif';*/
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.2rem;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wap: wrap;
+}
+/*Button style*/
+.btn{
+    width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;    
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.btn--normal:hover{
+    background-color: burlywood;
+}
+.btn--primary{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.btn--disabled{
+    color: #949494;
+    cursor: default;
+    background-color: #c3c3c3;
+}
+.btn--size-s{
+    font-size: 10px;
+    padding: 0 0px;
+}
+.auth-form__socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.input_form{
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    font-size: 18px; 
+    
+}
+
+
+.input_form::placeholder{
+    font-size: 1.5rem;
+}
+
+
+
