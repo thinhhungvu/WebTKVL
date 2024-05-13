@@ -44,7 +44,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
                             </li> 
                         <?php else : ?>
                             <div class="header__navbar-item">
-                                <a class="header__navbar-item-link header__navbar-item--strong" href="http://192.168.136.100/dangxuat.php">
+                                <a class="header__navbar-item-link header__navbar-item--strong" href="http://localhost/dangxuat.php">
                                     <i class="fa fa-user"></i><?php echo $_SESSION['user'] ?></a> </a>
                             </div>
                         <?php endif ?>
