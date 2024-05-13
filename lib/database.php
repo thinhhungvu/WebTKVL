@@ -5,7 +5,7 @@ class database {
     public $link;
 
     function __construct() {
-        $this->link = mysqli_connect("127.0.0.1", "root", "", "tkvl") or die();
+        $this->link = mysqli_connect("127.0.0.1", "user", "pass", "tkvl") or die();
         mysqli_set_charset($this->link, "utf8");
     }
 
